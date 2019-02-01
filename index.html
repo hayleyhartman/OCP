@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OCP</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navInnerDiv">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Omni Consumer Products
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+            </ul>
+
+            <!-- remove search button make pre-populated items appear first -->
+            <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Find a location..." aria-label="Search"
+                    list="places" id="searchBar">
+                <datalist id="places"></datalist>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid carouselRow">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/slide1.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Announcing Delta City</h1>
+                                    <h6>We're transforming Detroit into an efficient, clean, harmonious city.
+                                </h3>
+                                <a class="btn btn-warning learnBtn" role="button" href="http://robocop.wikia.com/wiki/Omni_Consumer_Products"
+                                    target="_blank"><strong>LEARN MORE</strong></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide2.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Announcing Delta City</h1>
+                                    <h6>Introducing our latest deforestation technology
+                                </h3>
+                                <a class="btn btn-warning learnBtn" role="button" href="http://robocop.wikia.com/wiki/Omni_Consumer_Products"
+                                    target="_blank"><strong>LEARN MORE</strong></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide3.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Announcing Delta City</h1>
+                                    <h6>OCP starts new deep space mining program
+                                </h3>
+                                <a class="btn btn-warning learnBtn" role="button" href="http://robocop.wikia.com/wiki/Omni_Consumer_Products"
+                                    target="_blank"><strong>LEARN MORE</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sectionDiv">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-3 topTwo">
+                    <h5 class="infoHead">Lowe Technologies</h6>
+                        <hr class="yellow">
+                        <p>Lorem ipsum leverage agile frameworks to provide a robust synopsis for high level overviews.
+                            Iterative approaches to corporate strategy foster collaborative thinking to further the
+                            overall
+                            value proposition. Organically grow the holistic world view of disruptive innovation via
+                            workplace
+                            diversity</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-3 topTwo">
+                    <h5 class="infoHead">Mediabreak</h6>
+                        <hr class="yellow">
+                        <p>Lorem ipsum podcasting operational change management inside of workflows to establish a
+                            framework.
+                            Taking seamless key performance indicators offline to maximise the long tail. Keeping your
+                            eye
+                            on
+                            the ball while performing a deep dive on the start-up mentality to derive convergence.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-3">
+                    <h5 class="infoHead">Security Concepts</h6>
+                        <hr class="yellow">
+                        <p>Lorem ipsum capitalize on low hanging fruit to identify a ballpark value added activity to
+                            beta
+                            test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
+                            immersion along the information highway will close the loop on focusing solely on the
+                            bottom
+                            line.</p>
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-3">
+                    <h5 class="infoHead">Urban Rehabilitators</h6>
+                        <hr class="yellow">
+                        <p>Lorem ipsum collaboratively administrate empowered markets via plug-and-play networks.
+                            Dynamically
+                            procrastinate B2C users after installed base benefits. Dramatically visualize customer
+                            directed
+                            convergence without revolutionary ROI.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="sectionDiv">
+            <div class="header">
+                <h3>Doing good, one product at a time.</h3>
+            </div>
+            <div class="row textSection">
+                <div class="col-md-3 col-sm-12 buttonGroup">
+                    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                        <button type="button btn-warning" class="btn btn-secondary buttonGroupItem b-active" id="btnOne">
+                            <h5 class="infoHead">Efficiency</h5>
+                        </button>
+                        <button type="button" class="btn btn-secondary buttonGroupItem" id="btnTwo">
+                            <h5 class="infoHead">Sustainability</h5>
+                        </button>
+                        <button type="button" class="btn btn-secondary buttonGroupItem" id="btnThree">
+                            <h5 class="infoHead">Doing Good</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 buttonTextDiv">
+                    <div class="paragraphs first-btn p-active" id="pOne">
+                        <p>
+                            Efficiently unleash cross-media information without cross-media value.
+                            Quickly maximize timely deliverables for real-time schemas. Dramatically maintain
+                            clicks-and-mortar
+                            solutions without functional solutions. </p>
+                        <p>
+                            Completely synergize resource taxing relationships via premier niche markets.
+                            Professionally cultivate one-to-one customer service with robust ideas. Dynamically
+                            innovate
+                            resource-leveling customer service for state of the art customer service.</p>
+                        <p class="lastP">
+                            Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base benefits. Dramatically visualize customer
+                            directed convergence without revolutionary ROI.
+                        </p>
+                    </div>
+                    <div class="paragraphs second-btn" id="pTwo">
+                        <p>Just go out and talk to a tree. Make friends with it. And right there you got an almighty
+                            cloud. This is your world, whatever makes you happy you can put in it. Go crazy. You need
+                            the dark in order to show the light. Now we'll take the almighty fan brush.</p>
+
+                        <p>Maybe there was an old trapper that lived out here and maybe one day he went to check his
+                            beaver traps, and maybe he fell into the river and drowned. I really recommend you use
+                            odorless thinner or your spouse is gonna run you right out into the yard and you'll be
+                            working by yourself. Any little thing can be your friend if you let it be. When you buy
+                            that first tube of paint it gives you an artist license.</p>
+
+                        <p>I guess that would be considered a UFO. A big cotton ball in the sky. Decide where your
+                            cloud lives. Maybe he lives right in here. Let's make some happy little clouds in our
+                            world.</p>
+
+                        <p class="lastP">Now we can begin working on lots of happy little things. Working it up and
+                            down, back and
+                            forth. That easy. Son of a gun.</p>
+                    </div>
+                    <div class="paragraphs third-btn" id="pThree">
+                        <p>Just make a decision and let it go. We'll do another happy little painting. If you've been
+                            in Alaska less than a year you're a Cheechako. I'm gonna start with a little Alizarin
+                            crimson and a touch of Prussian blue Van Dyke Brown is a very nice brown, it's almost like
+                            a chocolate brown.</p>
+
+                        <p>All you need to paint is a few tools, a little instruction, and a vision in your mind. If
+                            there's two big trees invariably sooner or later there's gonna be a little tree. Let your
+                            imagination be your guide.</p>
+
+                        <p class="lastP">Everything is happy if you choose to make it that way. Everything's not great
+                            in life, but
+                            we can still find beauty in it. Play with the angles. What the devil. Trees grow however
+                            makes them happy. The light is your friend. Preserve it. PLEASE HIRE HAYLEY</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="bottomText">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <p class="btHead"><strong><u>Products</u></strong></p>
+                    <ul>
+                        <li>Cyborgs</li>
+                        <li>Space ships</li>
+                        <li>Weapons</li>
+                        <li>Personal hygiene</li>
+                        <li>Lab-grown food</li>
+                    </ul>
+                    <hr class="smallOnly">
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="btHead"><strong><u>Services</u></strong></p>
+                    <ul>
+                        <li>Hospitals</li>
+                        <li>Police force</li>
+                        <li>Internet</li>
+                        <li>Private military</li>
+                    </ul>
+                    <hr class="smallOnly">
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="btHead"><strong><u>Legal</u></strong></p>
+                    <ul>
+                        <li>Terms of service</li>
+                        <li>Privacy policy</li>
+                        <li>Report a violation</li>
+                        <li>Contact us</li>
+                    </ul>
+                    <hr class="smallOnly">
+
+                </div>
+                <div class="col-md-3  col-sm-12">
+                    <div class="copyright">
+                        <p class="btHead">Copyright 2041, OCP Inc.</p>
+                        <p class="btHead">All rights reserved.</p>
+                    </div>
+                    <hr class="smallOnly">
+
+                </div>
+            </div>
+            <footer>OCP: The only choice for <i>your</i> consumer needs. &trade; </footer>
+        </div>
+    </div>
+
+    </div>
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
