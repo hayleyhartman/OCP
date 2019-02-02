@@ -67,12 +67,17 @@ $(function () {
         return `${name}: ${url}`
     });
 
-    document.getElementById('searchBar').addEventListener('keyup', function(e) {
-        console.log(event.keycode)
+    document.getElementById('searchBar').addEventListener('keydown', function (e) {
+        if (e.keyCode === 13) {
+            e.preventDefault();
+        }
+    });
+    document.getElementById('searchBar').addEventListener('keyup', function (e) {
+        console.log(e.keyCode)
 
-        if (event.keyCode === 13) {
-            const input = document.getElementById('searchBar').value
-            window.open(`https://www.google.com/maps/place/${input}`,'_blank');
+        if (e.keyCode === 13) {
+            const input = document.getElementById('searchBar').value;
+            window.open(`https://www.google.com/maps/place/${input}`, '_blank');
         }
     })
 
